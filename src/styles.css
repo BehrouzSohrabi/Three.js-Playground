@@ -1,12 +1,25 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
-}
-canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 0;
-}
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body,
+  #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: #f0f0f0;
+  }
+  .UI{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+  }
+  .UI button{
+    cursor: pointer;
+  }
